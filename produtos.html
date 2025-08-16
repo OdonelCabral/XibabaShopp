@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xibaba - Produtos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Xibaba - Loja</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="carrinho.html">Carrinho</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="produtos">
+            <div class="produto">
+                <img src="imagens/produto1.png" alt="Produto 1">
+                <h2>Produto 1</h2>
+                <p>Preço: 500 MZN</p>
+                <button onclick="adicionarAoCarrinho('Produto 1', 500)">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="produto">
+                <img src="imagens/produto2.png" alt="Produto 2">
+                <h2>Produto 2</h2>
+                <p>Preço: 750 MZN</p>
+                <button onclick="adicionarAoCarrinho('Produto 2', 750)">Adicionar ao Carrinho</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
